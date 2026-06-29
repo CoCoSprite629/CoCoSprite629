@@ -43,7 +43,7 @@
 
 - 📧 Email: [your.email@example.com](mailto:your.email@example.com)
 - 💼 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
+- 📺 Bilibili: [@传送门](https://space.bilibili.com/621964455)
 
 ## ⚡ 趣事
 
