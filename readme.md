@@ -28,9 +28,9 @@
 
 ## 🚀 当前项目
 
-- **ESP_NOW点对点通信** - Sunburst-基于ESP32的智能心理终端
-- **ESP32桌面多功能小终端** - Aurora-基于ESP32的智能桌面多媒体终端
-- **ESP32天气时钟** - RainbowTimer-基于ESP32的自校时气象时钟
+- **📞ESP_NOW点对点通信** - Sunburst-基于ESP32的智能心理终端
+- **📔ESP32桌面多功能小终端** - Aurora-基于ESP32的智能桌面多媒体终端
+- **⏰ESP32天气时钟** - RainbowTimer-基于ESP32的自校时气象时钟
 
 ## 📊 GitHub统计
 
