@@ -1,4 +1,4 @@
-# 👋 欢迎来到我的赛博空间
+# 👋 欢迎来到我的赛博小仓库
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/CoCoSprite629/CoCoSprite629/main/assets/banner.svg" alt="Cyberpunk Banner" width="900"/>
@@ -8,7 +8,7 @@
 
 > **赛博工程师** | 在数字与物理世界间架起桥梁
 
-一名热衷于融合软件与硬件的工程师，专注于：
+一名软硬兼修的开发者，专注于：
 - 🔧 **单片机程序编写** (ESP32, Arduino)
 - 🐍 **Python** (Pygame, AprilTag)
 - 🎨 **3D模型制作** (Fusion 360, Bambu Studio)
