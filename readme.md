@@ -41,19 +41,14 @@
 
 ## 🌐 联系我
 
-- 📧 Email: [your.email@example.com](mailto:your.email@example.com)
-- 💼 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
 - 📺 Bilibili: [@传送门](https://space.bilibili.com/621964455)
 
 ## ⚡ 趣事
 
 ```cpp
-while(alive) {
-    eat();
-    sleep();
-    code();
-    repeat();
-}
+//串口通信没有共地以为板子坏了
+//定时器里丢了阻塞时间，看门狗超时一直重启
+//弄混电源网络，天线底下铺铜
 ```
 
 ---
