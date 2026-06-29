@@ -23,7 +23,7 @@
 ## 🌆 赛博朋克视角
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/CoCoSprite629/CoCoSprite629/main/assets/cyber-anime.svg" alt="Cyberpunk City" width="400"/>
+  <img src="https://raw.githubusercontent.com/CoCoSprite629/CoCoSprite629/main/assets/cyber-anime.svg" alt="Cyberpunk City" width="900"/>
 </div>
 
 ## 🚀 当前项目
