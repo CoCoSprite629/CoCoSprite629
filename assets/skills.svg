@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0221"/>
+      <stop offset="50%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="cGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="pGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff00ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ff00ff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="fGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9d00ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#9d00ff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="pcbGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00ff9d" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#00ff9d" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="eGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff9900" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ff9900" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="180" fill="url(#bg)"/>
+
+  <!-- C++ Card -->
+  <g transform="translate(10, 20)">
+    <rect x="4" y="4" width="160" height="140" rx="12" fill="#000000" fill-opacity="0.35"/>
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="url(#cGrad)" stroke="#00f0ff" stroke-width="1.5" stroke-opacity="0.9"/>
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="#00f0ff" fill-opacity="0.06"/>
+    <text x="81" y="53" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#000000" fill-opacity="0.45" text-anchor="middle">C++</text>
+    <text x="80" y="52" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#00f0ff" text-anchor="middle">C++</text>
+    <!-- desc line 1 -->
+    <text x="81" y="91" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000" fill-opacity="0.35" text-anchor="middle">系统级编程</text>
+    <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#00f0ff" fill-opacity="0.40" text-anchor="middle">系统级编程</text>
+    <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.95" text-anchor="middle">系统级编程</text>
+    <!-- desc line 2 -->
+    <text x="81" y="112" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000" fill-opacity="0.25" text-anchor="middle">高性能计算</text>
+    <text x="80" y="111" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#00f0ff" fill-opacity="0.28" text-anchor="middle">高性能计算</text>
+    <text x="80" y="111" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#e0ffff" fill-opacity="0.90" text-anchor="middle">高性能计算</text>
+  </g>
+
+  <!-- Python Card -->
+  <g transform="translate(190, 20)">
+    <rect x="4" y="4" width="160" height="140" rx="12" fill="#000000" fill-opacity="0.35"/>
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="url(#pGrad)" stroke="#ff00ff" stroke-width="1.5" stroke-opacity="0.9"/>
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="#ff00ff" fill-opacity="0.06"/>
+    <text x="81" y="53" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#000000" fill-opacity="0.45" text-anchor="middle">Python</text>
+    <text x="80" y="52" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ff00ff" text-anchor="middle">Python</text>
+    <!-- desc line 1 -->
+    <text x="81" y="91" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000" fill-opacity="0.35" text-anchor="middle">AI 与数据分析</text>
+    <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff00ff" fill-opacity="0.40" text-anchor="middle">AI 与数据分析</text>
+    <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.95" text-anchor="middle">AI 与数据分析</text>
+    <!-- desc line 2 -->
+    <text x="81" y="112" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000" fill-opacity="0.25" text-anchor="middle">自动化脚本</text>
+    <text x="80" y="111" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff00ff" fill-opacity="0.28" text-anchor="middle">自动化脚本</text>
+    <text x="80" y="111" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffe0ff" fill-opacity="0.90" text-anchor="middle">自动化脚本</text>
+  </g>
+
+  <!-- Fusion 360 Card -->
+  <g transform="translate(370, 20)">
+    <rect x="4" y="4" width="160" height="140" rx="12" fill="#000000" fill-opacity="0.35"/>
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="url(#fGrad)" stroke="#9d00ff" stroke-width="1.5" stroke-opacity="0.9"/>
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="#9d00ff" fill-opacity="0.06"/>
+    <text x="81" y="53" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#000000" fill-opacity="0.45" text-anchor="middle">Fusion 360</text>
+    <text x="80" y="52" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#9d00ff" text-anchor="middle">Fusion 360</text>
+    <!-- desc line 1 -->
+    <text x="81" y="91" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000" fill-opacity="0.35" text-anchor="middle">三维 CAD 设计</text>
+    <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9d00ff" fill-opacity="0.40" text-anchor="middle">三维 CAD 设计</text>
+    <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.95" text-anchor="middle">三维 CAD 设计</text>
+    <!-- desc line 2 -->
+    <text x="81" y="112" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000" fill-opacity="0.25" text-anchor="middle">原型快速制作</text>
+    <text x="80" y="111" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9d00ff" fill-opacity="0.28" text-anchor="middle">原型快速制作</text>
+    <text x="80" y="111" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#f0e0ff" fill-opacity="0.90" text-anchor="middle">原型快速制作</text>
+  </g>
+
+  <!-- PCB Layout Card -->
+  <g transform="translate(550, 20)">
+    <rect x="4" y="4" width="160" height="140" rx="12" fill="#000000" fill-opacity="0.35"/>
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="url(#pcbGrad)" stroke="#00ff9d" stroke-width="1.5" stroke-opacity="0.9"/>
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="#00ff9d" fill-opacity="0.06"/>
+    <text x="81" y="53" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#000000" fill-opacity="0.45" text-anchor="middle">PCB Layout</text>
+    <text x="80" y="52" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#00ff9d" text-anchor="middle">PCB Layout</text>
+    <!-- desc line 1 -->
+    <text x="81" y="91" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000" fill-opacity="0.35" text-anchor="middle">电路板设计</text>
+    <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#00ff9d" fill-opacity="0.40" text-anchor="middle">电路板设计</text>
+    <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.95" text-anchor="middle">电路板设计</text>
+    <!-- desc line 2 -->
+    <text x="81" y="112" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000" fill-opacity="0.25" text-anchor="middle">生产制造对接</text>
+    <text x="80" y="111" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#00ff9d" fill-opacity="0.28" text-anchor="middle">生产制造对接</text>
+    <text x="80" y="111" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#e0fff5" fill-opacity="0.90" text-anchor="middle">生产制造对接</text>
+  </g>
+
+  <!-- ESP32 Card -->
+  <g transform="translate(730, 20)">
+    <rect x="4" y="4" width="160" height="140" rx="12" fill="#000000" fill-opacity="0.35"/>
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="url(#eGrad)" stroke="#ff9900" stroke-width="1.5" stroke-opacity="0.9"/>
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="#ff9900" fill-opacity="0.06"/>
+    <text x="81" y="53" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#000000" fill-opacity="0.45" text-anchor="middle">ESP32</text>
+    <text x="80" y="52" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#ff9900" text-anchor="middle">ESP32</text>
+    <!-- desc line 1 -->
+    <text x="81" y="91" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000" fill-opacity="0.35" text-anchor="middle">物联网与嵌入式</text>
+    <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff9900" fill-opacity="0.40" text-anchor="middle">物联网与嵌入式</text>
+    <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.95" text-anchor="middle">物联网与嵌入式</text>
+    <!-- desc line 2 -->
+    <text x="81" y="112" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000" fill-opacity="0.25" text-anchor="middle">WiFi / 蓝牙</text>
+    <text x="80" y="111" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff9900" fill-opacity="0.28" text-anchor="middle">WiFi / 蓝牙</text>
+    <text x="80" y="111" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#fff5e0" fill-opacity="0.90" text-anchor="middle">WiFi / 蓝牙</text>
+  </g>
+</svg>
