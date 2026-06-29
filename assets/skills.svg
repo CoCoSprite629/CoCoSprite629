@@ -1,13 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
   <defs>
-    <!-- 渐变定义 -->
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0d0221;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
     </linearGradient>
-    
-    <!-- 毛玻璃效果滤镜 -->
     <filter id="glassEffect">
       <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" />
       <feColorMatrix type="matrix"
@@ -16,8 +13,6 @@
                 0 0 1 0 0
                 0 0 0 0.2 0" />
     </filter>
-    
-    <!-- 霓虹发光效果 -->
     <filter id="neonGlow">
       <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
       <feMerge>
@@ -25,82 +20,95 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    
-    <!-- 卡片背景渐变 -->
     <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00f0ff;stop-opacity:0.1" />
+      <stop offset="0%" style="stop-color:#00f0ff;stop-opacity:0.15" />
       <stop offset="100%" style="stop-color:#00f0ff;stop-opacity:0.05" />
     </linearGradient>
-    
     <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ff00ff;stop-opacity:0.1" />
+      <stop offset="0%" style="stop-color:#ff00ff;stop-opacity:0.15" />
       <stop offset="100%" style="stop-color:#ff00ff;stop-opacity:0.05" />
     </linearGradient>
-    
     <linearGradient id="cardGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#9d00ff;stop-opacity:0.1" />
+      <stop offset="0%" style="stop-color:#9d00ff;stop-opacity:0.15" />
       <stop offset="100%" style="stop-color:#9d00ff;stop-opacity:0.05" />
     </linearGradient>
-    
     <linearGradient id="cardGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00ff9d;stop-opacity:0.1" />
+      <stop offset="0%" style="stop-color:#00ff9d;stop-opacity:0.15" />
       <stop offset="100%" style="stop-color:#00ff9d;stop-opacity:0.05" />
     </linearGradient>
-    
     <linearGradient id="cardGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ff9900;stop-opacity:0.1" />
+      <stop offset="0%" style="stop-color:#ff9900;stop-opacity:0.15" />
       <stop offset="100%" style="stop-color:#ff9900;stop-opacity:0.05" />
     </linearGradient>
   </defs>
-  
-  <!-- 背景 -->
+
   <rect width="900" height="180" fill="url(#bgGradient)" />
-  
-  <!-- 技能卡片 1: C++ -->
+
+  <!-- C++ Card -->
   <g transform="translate(20, 20)">
-    <rect x="0" y="0" width="160" height="140" rx="10" fill="url(#cardGrad1)" stroke="#00f0ff" stroke-width="1" filter="url(#glassEffect)" />
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="url(#cardGrad1)" stroke="#00f0ff" stroke-width="1" filter="url(#glassEffect)" />
     <text x="80" y="45" font-family="Arial Black, sans-serif" font-size="28" font-weight="bold" fill="#00f0ff" text-anchor="middle" filter="url(#neonGlow)">C++</text>
-    <text x="80" y="75" font-family="Consolas, monospace" font-size="14" fill="#e0e0e0" text-anchor="middle">{" "} ++</text>
-    <text x="80" y="100" font-family="Arial, sans-serif" font-size="12" fill="#a0a0a0" text-anchor="middle">Systems Programming</text>
+    <!-- code bracket icon -->
+    <path d="M 55 70 L 45 80 L 55 90" stroke="#00f0ff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 105 70 L 115 80 L 105 90" stroke="#00f0ff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="80" y="100" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">Systems Programming</text>
     <text x="80" y="120" font-family="Arial, sans-serif" font-size="12" fill="#a0a0a0" text-anchor="middle">High Performance</text>
   </g>
-  
-  <!-- 技能卡片 2: Python -->
+
+  <!-- Python Card -->
   <g transform="translate(200, 20)">
-    <rect x="0" y="0" width="160" height="140" rx="10" fill="url(#cardGrad2)" stroke="#ff00ff" stroke-width="1" filter="url(#glassEffect)" />
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="url(#cardGrad2)" stroke="#ff00ff" stroke-width="1" filter="url(#glassEffect)" />
     <text x="80" y="45" font-family="Arial Black, sans-serif" font-size="28" font-weight="bold" fill="#ff00ff" text-anchor="middle" filter="url(#neonGlow)">Python</text>
-    <text x="80" y="75" font-family="Consolas, monospace" font-size="14" fill="#e0e0e0" text-anchor="middle">🐍</text>
-    <text x="80" y="100" font-family="Arial, sans-serif" font-size="12" fill="#a0a0a0" text-anchor="middle">AI & Data Science</text>
+    <!-- snake icon -->
+    <path d="M 68 80 Q 68 70 80 70 Q 92 70 92 80 Q 92 88 85 88 Q 78 88 78 80" stroke="#ff00ff" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <text x="80" y="100" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">AI & Data Science</text>
     <text x="80" y="120" font-family="Arial, sans-serif" font-size="12" fill="#a0a0a0" text-anchor="middle">Automation</text>
   </g>
-  
-  <!-- 技能卡片 3: Fusion360 -->
+
+  <!-- Fusion 360 Card -->
   <g transform="translate(380, 20)">
-    <rect x="0" y="0" width="160" height="140" rx="10" fill="url(#cardGrad3)" stroke="#9d00ff" stroke-width="1" filter="url(#glassEffect)" />
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="url(#cardGrad3)" stroke="#9d00ff" stroke-width="1" filter="url(#glassEffect)" />
     <text x="80" y="45" font-family="Arial Black, sans-serif" font-size="20" font-weight="bold" fill="#9d00ff" text-anchor="middle" filter="url(#neonGlow)">Fusion</text>
     <text x="80" y="65" font-family="Arial Black, sans-serif" font-size="20" font-weight="bold" fill="#9d00ff" text-anchor="middle" filter="url(#neonGlow)">360</text>
-    <text x="80" y="90" font-family="Consolas, monospace" font-size="14" fill="#e0e0e0" text-anchor="middle">◈</text>
-    <text x="80" y="115" font-family="Arial, sans-serif" font-size="12" fill="#a0a0a0" text-anchor="middle">3D CAD Design</text>
+    <!-- 3D cube icon -->
+    <path d="M 70 75 L 85 67 L 100 75 L 85 83 Z" stroke="#9d00ff" stroke-width="2" fill="none" />
+    <path d="M 70 75 L 70 88 L 85 96 L 100 88 L 100 75" stroke="#9d00ff" stroke-width="1.5" fill="none" stroke-dasharray="2 1" />
+    <text x="80" y="115" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">3D CAD Design</text>
     <text x="80" y="130" font-family="Arial, sans-serif" font-size="12" fill="#a0a0a0" text-anchor="middle">Prototyping</text>
   </g>
-  
-  <!-- 技能卡片 4: PCB Layout -->
+
+  <!-- PCB Layout Card -->
   <g transform="translate(560, 20)">
-    <rect x="0" y="0" width="160" height="140" rx="10" fill="url(#cardGrad4)" stroke="#00ff9d" stroke-width="1" filter="url(#glassEffect)" />
+    <rect x="0" y="0" width="160" height="140" rx="12" fill="url(#cardGrad4)" stroke="#00ff9d" stroke-width="1" filter="url(#glassEffect)" />
     <text x="80" y="40" font-family="Arial Black, sans-serif" font-size="18" font-weight="bold" fill="#00ff9d" text-anchor="middle" filter="url(#neonGlow)">PCB</text>
     <text x="80" y="60" font-family="Arial Black, sans-serif" font-size="18" font-weight="bold" fill="#00ff9d" text-anchor="middle" filter="url(#neonGlow)">Layout</text>
-    <text x="80" y="85" font-family="Consolas, monospace" font-size="14" fill="#e0e0e0" text-anchor="middle">⚙</text>
-    <text x="80" y="110" font-family="Arial, sans-serif" font-size="12" fill="#a0a0a0" text-anchor="middle">Circuit Design</text>
+    <!-- circuit icon -->
+    <line x1="55" y1="75" x2="75" y2="75" stroke="#00ff9d" stroke-width="2" />
+    <circle cx="80" cy="75" r="4" stroke="#00ff9d" stroke-width="2" fill="none" />
+    <line x1="85" y1="75" x2="95" y2="65" stroke="#00ff9d" stroke-width="2" />
+    <circle cx="95" cy="65" r="3" fill="#00ff9d" />
+    <line x1="85" y1="75" x2="95" y2="85" stroke="#00ff9d" stroke-width="2" />
+    <circle cx="95" cy="85" r="3" fill="#00ff9d" />
+    <text x="80" y="110" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">Circuit Design</text>
     <text x="80" y="125" font-family="Arial, sans-serif" font-size="12" fill="#a0a0a0" text-anchor="middle">Manufacturing</text>
   </g>
-  
-  <!-- 技能卡片 5: ESP32 -->
+
+  <!-- ESP32 Card -->
   <g transform="translate(740, 20)">
-    <rect x="0" y="0" width="140" height="140" rx="10" fill="url(#cardGrad5)" stroke="#ff9900" stroke-width="1" filter="url(#glassEffect)" />
+    <rect x="0" y="0" width="140" height="140" rx="12" fill="url(#cardGrad5)" stroke="#ff9900" stroke-width="1" filter="url(#glassEffect)" />
     <text x="70" y="45" font-family="Arial Black, sans-serif" font-size="22" font-weight="bold" fill="#ff9900" text-anchor="middle" filter="url(#neonGlow)">ESP</text>
     <text x="70" y="65" font-family="Arial Black, sans-serif" font-size="22" font-weight="bold" fill="#ff9900" text-anchor="middle" filter="url(#neonGlow)">32</text>
-    <text x="70" y="90" font-family="Consolas, monospace" font-size="14" fill="#e0e0e0" text-anchor="middle">☄</text>
-    <text x="70" y="115" font-family="Arial, sans-serif" font-size="12" fill="#a0a0a0" text-anchor="middle">IoT & Embedded</text>
+    <!-- chip icon -->
+    <rect x="55" y="72" width="30" height="22" rx="2" stroke="#ff9900" stroke-width="2" fill="none" />
+    <line x1="60" y1="72" x2="60" y2="68" stroke="#ff9900" stroke-width="1.5" />
+    <line x1="67" y1="72" x2="67" y2="68" stroke="#ff9900" stroke-width="1.5" />
+    <line x1="73" y1="72" x2="73" y2="68" stroke="#ff9900" stroke-width="1.5" />
+    <line x1="80" y1="72" x2="80" y2="68" stroke="#ff9900" stroke-width="1.5" />
+    <line x1="60" y1="94" x2="60" y2="98" stroke="#ff9900" stroke-width="1.5" />
+    <line x1="67" y1="94" x2="67" y2="98" stroke="#ff9900" stroke-width="1.5" />
+    <line x1="73" y1="94" x2="73" y2="98" stroke="#ff9900" stroke-width="1.5" />
+    <line x1="80" y1="94" x2="80" y2="98" stroke="#ff9900" stroke-width="1.5" />
+    <text x="70" y="115" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="middle">IoT & Embedded</text>
     <text x="70" y="130" font-family="Arial, sans-serif" font-size="12" fill="#a0a0a0" text-anchor="middle">WiFi & Bluetooth</text>
   </g>
 </svg>
