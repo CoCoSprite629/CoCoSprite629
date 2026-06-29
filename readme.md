@@ -59,5 +59,5 @@
 
 <div align="center">
   <strong>「 在赛博世界中，代码就是魔法 」</strong><br/>
-  <em>- Cyber Developer</em>
+  <em>- CoCoSprite</em>
 </div>
